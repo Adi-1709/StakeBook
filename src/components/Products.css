@@ -1,0 +1,67 @@
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.product-card {
+  position: relative;
+  padding: 3rem 2rem;
+  text-align: center;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  overflow: hidden;
+  display: block;
+}
+
+.product-image-container {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: var(--bg-primary); /* Adding dark background for contain */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Fit the logo completely */
+  transition: transform 0.4s ease;
+}
+
+.product-name {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.product-desc {
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.product-hover-effect {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: radial-gradient(circle at center, rgba(0, 240, 255, 0.1) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: -1;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(0, 255, 115, 0.5);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 255, 115, 0.2);
+}
+
+.product-card:hover .product-image {
+  transform: scale(1.1);
+}
+
+.product-card:hover .product-hover-effect {
+  opacity: 1;
+}
