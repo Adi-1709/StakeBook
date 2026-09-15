@@ -86,6 +86,16 @@ ul {
   letter-spacing: 2px;
 }
 
+@media (max-width: 768px) {
+  .section-container {
+    padding: 3rem 1rem;
+  }
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
 /* Buttons */
 .btn-primary {
   background: linear-gradient(45deg, var(--accent-secondary), var(--accent-primary));
