@@ -14,7 +14,7 @@ const reasons = [
 const WhyChooseUs = () => {
   return (
     <section id="why-us" className="section-container">
-      <h2 className="section-title">Why Choose <span className="gradient-text">StakeBook</span></h2>
+      <h2 className="section-title">Why Choose <img src="/StakeBookLogo.png" alt="StakeBook" className="inline-logo" /></h2>
       <div className="reasons-grid">
         {reasons.map((reason) => (
           <div key={reason.id} className="reason-card glass-panel">

@@ -41,12 +41,12 @@
   left: 0;
   width: 0%;
   height: 2px;
-  background: var(--accent-cyan);
+  background: var(--accent-primary);
   transition: width 0.3s ease;
 }
 
 .nav-links a:not(.btn-primary):hover {
-  color: var(--accent-cyan);
+  color: var(--accent-primary);
 }
 
 .nav-links a:not(.btn-primary):hover::after {

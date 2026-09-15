@@ -62,7 +62,7 @@
 
 .btn-outline:hover {
   background: var(--bg-glass);
-  border-color: var(--accent-cyan);
+  border-color: var(--accent-primary);
   box-shadow: 0 0 15px rgba(0, 255, 115, 0.2);
 }
 
@@ -78,7 +78,7 @@
 .glow-1 {
   top: 20%;
   left: 20%;
-  background: rgba(16, 185, 129, 0.4);
+  background: rgba(0, 210, 255, 0.4);
   animation: float 6s ease-in-out infinite;
 }
 

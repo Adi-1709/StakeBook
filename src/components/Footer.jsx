@@ -29,7 +29,7 @@ const Footer = () => {
             <ul className="footer-links">
               <li><a href="#products">Products</a></li>
               <li><a href="#packages">Pricing</a></li>
-              <li><a href="#why-us">Why StakeBook</a></li>
+              <li><a href="#why-us">Why <img src="/StakeBookLogo.png" alt="StakeBook" className="inline-logo" /></a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} StakeBook. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} <img src="/StakeBookLogo.png" alt="StakeBook" className="inline-logo" />. All rights reserved.</p>
         </div>
       </div>
     </footer>

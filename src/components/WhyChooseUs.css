@@ -18,18 +18,18 @@
 }
 
 .reason-icon-wrapper {
-  background: rgba(0, 240, 255, 0.1);
+  background: rgba(0, 255, 115, 0.1);
   padding: 1rem;
   border-radius: 12px;
-  color: var(--accent-cyan);
+  color: var(--accent-primary);
   flex-shrink: 0;
   transition: all 0.3s ease;
 }
 
 .reason-card:hover .reason-icon-wrapper {
-  background: var(--accent-cyan);
+  background: var(--accent-primary);
   color: var(--bg-primary);
-  box-shadow: 0 0 15px rgba(0, 240, 255, 0.5);
+  box-shadow: 0 0 15px rgba(0, 255, 115, 0.5);
 }
 
 .reason-title {

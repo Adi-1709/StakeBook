@@ -58,11 +58,11 @@
 }
 
 .social-icon:hover {
-  background: var(--accent-purple);
+  background: var(--accent-secondary);
   color: white;
   transform: translateY(-3px);
-  border-color: var(--accent-purple);
-  box-shadow: 0 5px 15px rgba(112, 0, 255, 0.4);
+  border-color: var(--accent-secondary);
+  box-shadow: 0 5px 15px rgba(0, 210, 255, 0.4);
 }
 
 .footer-heading {
@@ -82,7 +82,7 @@
 }
 
 .footer-links a:hover {
-  color: var(--accent-cyan);
+  color: var(--accent-primary);
 }
 
 .footer-contact li {
@@ -94,7 +94,7 @@
 }
 
 .contact-icon {
-  color: var(--accent-cyan);
+  color: var(--accent-primary);
 }
 
 .footer-contact a {
@@ -102,7 +102,7 @@
 }
 
 .footer-contact a:hover {
-  color: var(--accent-purple);
+  color: var(--accent-secondary);
 }
 
 .footer-bottom {
